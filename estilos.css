@@ -1,0 +1,165 @@
+* {
+    margin:0;
+    padding:0;
+    }
+    #columna1 {
+    position:absolute;
+    width:300px;
+    background-color:#ffff55;
+    }
+    #columna2 {
+    margin-left:300px;
+    background-color:#ffffbb;
+    }
+    
+    .inicio{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("Imágenes/fondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+
+.inicio .sector{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 60px 10px;
+}
+
+
+.inicio .sector .info h1{
+
+    font-size: 4rem;
+    letter-spacing: 15px;
+    font-family: "Open Sans";
+}
+.inicio .sector .info h2{
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-family: "Open Sans";
+}
+
+
+
+.titulo-seccion{
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+}
+
+.perfil{
+    background-color: #f0b3ff;
+    padding: 300px 0 50px 0;
+    text-align: left;
+}
+.perfil .sector{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.perfil .sector .especial{
+    color: #940253;
+    font-weight: bold;
+    margin: 10px;
+    font-family: "Open Sans";
+}
+
+.perfil .sector li{
+    margin: 5px;
+    color: #666;
+    text-align: left;
+    font-family: "Open Sans";
+}
+.perfil .sector p{
+    font-family: "Open Sans";
+    max-width: 700px;
+    margin: 10px;
+    color: #666;
+}
+.perfil .sector .fila{
+    display:flexbox;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.perfil .sector .fila .linea{
+    width: 100%;
+}
+.perfil .sector .fila .linea span{
+    display: block;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.perfil .sector .foto{
+    position: relative;
+}
+.perfil .sector .foto img{
+    max-width: 250px;
+    border: 5px solid #940253;
+    position: absolute;
+    left: 50%;
+    top: -250px;
+    transform: translateX(-50%);
+}
+
+.experiencias{
+    padding: 30px 0 110px 0;
+    text-align: center;
+    background-color:  #a6a6a6;
+    background-size: cover;
+    color: #1a1a1a;
+}  
+
+.titulo-detalle{
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+}
+.experiencias .sector .especial{
+    color:  #1a1a1a ;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+.experiencias .sector li{
+    margin: 10px;
+    color: #1a1a1a;
+    text-align: left;
+    font-family: "Open Sans";
+}
+.experiencias .sector .fila .linea span{
+    display: block;
+    font-weight: bold;
+    margin: 5px 0;
+    font-family: "Open Sans";
+}
+
+.experiencias .sector{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.experiencias.sector p{
+    max-width: 700px;
+    font-family: "Open Sans";
+    margin: 100px;
+    color: #fff;
+}
+.experiencias .sector .fila{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.experiencias .sector .fila .linea{
+    width: 47%;
+    text-align: left;
+    margin-left:50px;
+    margin-right:10px;
+    margin-top:7px;  
+    font-family: "Open Sans";
+}
